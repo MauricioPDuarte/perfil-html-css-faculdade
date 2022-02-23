@@ -1,0 +1,147 @@
+
+body {
+    padding: 0;
+    margin: 0;
+
+    max-width: 100%;
+    height: 100vh;
+
+    background: #f1f0f0;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(54, 54, 54);
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.barra-cor {
+    background-color: #0156ba;
+    height: 300px;
+}
+
+.conteudo {
+    position: absolute;
+    width: 60%;
+    box-shadow: 0px 1px 7px -5px #000000;
+    background: #fff;
+    padding: 30px 80px;
+    border-radius: 5px;
+    margin: 0 auto;
+    top: 10%;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dados-usuario {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+    .dados-usuario img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+    }
+
+    .dados-usuario h1 {
+        font-weight: 500;
+        color: rgb(47, 47, 47);
+    }
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.sobre p {
+    text-align: center;
+    color: #666;
+}
+
+.detalhes {
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid #ebebeb;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+.card ul li span {
+    font-weight: 500;
+}
+
+
+#hobbys {
+    border-collapse: separate;
+    width: 60%;
+    overflow: hidden;
+         border-radius: 5px;
+         border: 1px solid #ddd;
+  }
+
+  
+  #hobbys td, #hobbys th {
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 500;
+  }
+  
+  #hobbys tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #hobbys tr:hover {background-color: #ddd;}
+  
+  #hobbys th {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: left;
+    background-color: #0156ba;
+    color: white;
+  }
+
+  .btn-hobby {
+      padding: 10px 20px;
+      border: 0;
+      background-color: #0156ba;
+      border-radius: 5px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+  }
+
+  .btn-disabled {
+      background-color: #90b7e4;
+  }
